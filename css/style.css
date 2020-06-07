@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+   padding:20px 10px;
+   display: flex;
+   flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main{
+    background-color:#eee;
+   
+    padding: 0 20px;
+}
+#title{
+    
+    text-align: center;
+    font-size:20px;
+
+}
+#img-div{
+  
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding:10px 10px;
+    margin: 0 auto;
+    
+}
+#image{
+    display: flex;
+    flex-direction: column;
+    
+    flex: 0 0 100px;
+    max-width:100%;
+    margin: 0 auto;
+}
+#img-caption{
+text-align: center;
+}
+
+#tribute-info{
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 600px;
+  
+}
+#tribute-info h2{
+ 
+   text-align: center;
+}
+#tribute-info ul{
+   
+    margin-top: 40px;
+    line-height: 30px;
+}
+#tribute-info ul li{
+
+    margin-bottom: 20px;
+}
+
+#last{
+   
+ 
+  font-size: 20px;
+  text-align: center;
+}
